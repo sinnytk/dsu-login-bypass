@@ -1,0 +1,34 @@
+{
+    "name": "DSU LMS Alert Bypass",
+    "version": "1.0",
+    "description": "Extension to bypass the annoying LMS login popup",
+    "permissions": [
+        "storage",
+        "declarativeContent",
+        "webRequest",
+        "webRequestBlocking",
+        "*://lms.dsu.edu.pk/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo.png",
+            "32": "logo.png",
+            "48": "logo.png",
+            "128": "logo.png"
+        }
+    },
+    "icons": {
+        "16": "logo.png",
+        "32": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "manifest_version": 2
+}

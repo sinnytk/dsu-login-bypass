@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src='popup.js'></script>
+    <style>
+        #logged_in {
+            display: none;
+        }
+
+        #logged_in p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login">
+        <label for="id">DSU ID(as entered on LMS)</label>
+        <input type="text" name="id" id="lms_id">
+        <label for="password">DSU password</label>
+        <input type="password" name="password" id="lms_pass">
+        <input type="submit" value="Submit" id='submit_btn'>
+    </div>
+    <div id="logged_in">
+        <p>Logged in</p>
+        <p id="lms_id">
+        </p>
+        <button id='reset_btn'>Reset</button>
+    </div>
+</body>
+
+</html>

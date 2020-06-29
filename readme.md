@@ -1,6 +1,6 @@
 # DSU LMS Login Bypass
 
-Chrome extension to bypass the annoying LMS login alerts
+![Demo](demo.gif)
 
 ## Installation
 
@@ -10,9 +10,9 @@ git clone https://github.com/sinnytk/dsu-login-bypass
 ```
 2) Go to Chrome Extension page(chrome://extensions/)
 3) Press "Load Unpacked" and select the cloned repository
-4) Go to LMS, you will see the extension light up, click on it and login
-5) Profit! Next time you login, it won't prompt you with the annoying login alert
-
+4) Make sure the extension is pinned by clicking on "extensions" icon in the bar 
+5) Go to LMS, you will see the extension light up, click on it and login
+6) Profit! Next time you login, it won't prompt you with the annoying login alert
 
 ## How does it work?
 
